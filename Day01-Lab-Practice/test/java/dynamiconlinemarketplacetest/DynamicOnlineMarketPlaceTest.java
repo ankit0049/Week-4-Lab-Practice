@@ -29,6 +29,7 @@ public class DynamicOnlineMarketPlaceTest {
 
 	   // Checking if the product categories match the expected list
 	   Assertions.assertEquals(categoriesList, book.getProductList().stream().map(item -> item.categoryName).toList());
+	   System.out.println("All test cases passed");
     }
 
     // Test case to check if the ClothingCategory is correctly handled
@@ -71,5 +72,6 @@ public class DynamicOnlineMarketPlaceTest {
 
 	   // Checking if the product categories match the expected list
 	   Assertions.assertEquals(gadgetList, smartwatch.getProductList().stream().map(item -> item.categoryName).toList());
+	   System.out.println("All test cases passed");
     }
 }
