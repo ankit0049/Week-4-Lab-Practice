@@ -24,6 +24,7 @@ public class AiDrivenManagementSystemTest {
 
 	   // Verifying if the job roles in the resume match the expected list
 	   assertEquals(dataScientistList, resume.getJobRolesList().stream().map(item -> item.jobTitle).toList());
+	   System.out.println("All Test Cases passed");
     }
 
     // Test case to verify if the ResumeScreeningSystem correctly processes a Product Manager resume
@@ -62,5 +63,6 @@ public class AiDrivenManagementSystemTest {
 
 	   // Verifying if the job roles in the resume match the expected list
 	   assertEquals(softwareEngineerList, resume.getJobRolesList().stream().map(item -> item.jobTitle).toList());
+	   System.out.println("All Test Cases Passed");
     }
 }
