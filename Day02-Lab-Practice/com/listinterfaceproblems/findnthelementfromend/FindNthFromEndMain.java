@@ -9,6 +9,8 @@ public class FindNthFromEndMain {
 
 		// Test the findNthFromEnd method for N = 2
 		char result = FindNthFromEnd.findNthFromEnd(list, 2);
+
+		// Print the result
 		System.out.println("Nth element from the end: " + result);
 	}
 }
