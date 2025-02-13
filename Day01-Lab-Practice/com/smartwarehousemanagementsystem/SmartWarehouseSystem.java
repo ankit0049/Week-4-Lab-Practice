@@ -2,6 +2,7 @@ package com.smartwarehousemanagementsystem;
 // Main class to execute and test the warehouse management system
 public class SmartWarehouseSystem {
     public static void main(String[] args) {
+
 	   // Creating storage instances for different item categories
 	   Storage<Electronics> electronicsStorage = new Storage<>();
 	   Storage<Groceries> groceriesStorage = new Storage<>();
@@ -27,6 +28,7 @@ public class SmartWarehouseSystem {
 	   System.out.println("\nGroceries Items:");
 	   Storage.displayItems(groceriesStorage.getItems());
 
+	   // Displaying furniture items
 	   System.out.println("\nFurniture Items:");
 	   Storage.displayItems(furnitureStorage.getItems());
     }
