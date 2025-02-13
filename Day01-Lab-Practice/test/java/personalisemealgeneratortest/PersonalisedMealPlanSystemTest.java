@@ -16,7 +16,7 @@ public class PersonalisedMealPlanSystemTest {
 			 field.setAccessible(true);
 			 result.append(field.get(obj)).append(" ");
 		  }
-		  return result.toString().trim(); // Return extracted content
+		  return result.toString().trim();
 	   } catch (IllegalAccessException e) {
 		  throw new RuntimeException("Error extracting object content", e);
 	   }
