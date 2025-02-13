@@ -5,7 +5,7 @@ import java.util.*;
 // Create a Class to count the frequency of each element
 public class FindFrequency {
 
-    // Counts the frequency of each element in a list and returns the result as a Map.
+    // Create a method to Counts the frequency of each element in a list and returns the result as a Map.
     public static Map<String, Integer> findFrequency(List<String> list) {
 	   // Create a HashMap to store the frequency of each element
 	   Map<String, Integer> frequencyMap = new HashMap<>();
