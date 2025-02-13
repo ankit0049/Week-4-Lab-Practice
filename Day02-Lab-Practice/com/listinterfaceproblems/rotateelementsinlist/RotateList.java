@@ -1,8 +1,7 @@
 package com.listinterfaceproblems.rotateelementsinlist;
 import java.util.*;
 
-// Class to rotate the elements of a list by a given number of positions.
-
+// Create a Class to rotate the elements of a list by a given number of positions.
 public class RotateList {
 
 	// Rotates the elements of the list by the specified number of positions.

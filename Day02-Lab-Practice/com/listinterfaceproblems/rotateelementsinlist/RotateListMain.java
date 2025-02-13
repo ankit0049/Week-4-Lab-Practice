@@ -9,6 +9,8 @@ public class RotateListMain {
 
 		// Create a rotated list to hold the rotated list result
 		List<Integer> rotatedList = RotateList.rotate(list, 3);
+
+		// Printing the rotated list
 		System.out.println("Rotated List: " + rotatedList);
 	}
 }
