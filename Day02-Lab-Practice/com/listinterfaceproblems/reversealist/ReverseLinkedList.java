@@ -3,10 +3,10 @@ package com.listinterfaceproblems.reversealist;
 import java.util.LinkedList;
 import java.util.List;
 
-// Class to reverse the elements of a LinkedList.
+// Create a Class to reverse the elements of a LinkedList.
 public class ReverseLinkedList {
 
-	// Reverses the elements of a LinkedList without using built-in reverse methods.
+	// Create a method to Reverses the elements of a LinkedList without using built-in reverse methods.
 	public static List<Integer> reverse(List<Integer> list) {
 		// Create an empty LinkedList to store the reversed elements
 		List<Integer> reversedList = new LinkedList<>();
