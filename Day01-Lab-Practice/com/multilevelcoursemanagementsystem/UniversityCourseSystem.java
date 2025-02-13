@@ -21,6 +21,8 @@ public class UniversityCourseSystem {
 
 	   // Storing all courses in a list using wildcards
 	   List<CourseType> allCourses = new ArrayList<>();
+
+	   //Adding the courses to the list
 	   allCourses.add(dataStructures);
 	   allCourses.add(webDevelopment);
 	   allCourses.add(aiResearch);
