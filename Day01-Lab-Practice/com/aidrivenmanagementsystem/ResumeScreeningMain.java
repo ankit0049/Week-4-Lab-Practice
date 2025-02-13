@@ -22,6 +22,8 @@ public class ResumeScreeningMain {
 
 	   // Storing all job roles in a list using wildcards
 	   List<JobRole> jobRoles = new ArrayList<>();
+
+	   //Adding the job roles to the list
 	   jobRoles.add(softwareEngineer);
 	   jobRoles.add(dataScientist);
 	   jobRoles.add(productManager);
