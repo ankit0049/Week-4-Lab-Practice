@@ -25,6 +25,7 @@ public class MultiLevelCourseManagementSystemTest {
 
 	   // Checking if the added course matches the expected list
 	   assertEquals(assignmentCourse, itAssignmentCourse.getCourseList().stream().map(item -> item.courseName).toList());
+	   System.out.println("Assignment Course Test Passed");
     }
 
     // Test case to verify if the ExamCourse is correctly added and retrieved
@@ -42,6 +43,7 @@ public class MultiLevelCourseManagementSystemTest {
 
 	   // Checking if the added course matches the expected list
 	   assertEquals(CsExamCourse, csExamCourse.getCourseList().stream().map(item -> item.courseName).toList());
+	   System.out.println("Exam Course Test Passed");
     }
 
     // Test case to verify if the ResearchCourse is correctly added and retrieved
@@ -59,5 +61,6 @@ public class MultiLevelCourseManagementSystemTest {
 
 	   // Checking if the added course matches the expected list
 	   assertEquals(aiResearchCourseList, aiResearchCourse.getCourseList().stream().map(item -> item.courseName).toList());
+	   System.out.println("Research Course Test Passed");
     }
 }
