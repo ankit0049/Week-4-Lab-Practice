@@ -23,10 +23,7 @@ public class SmartWareHouseManagementTest {
 			 electronicsList,
 			 electronicsStorage.getItems().stream().map(item -> item.name).toList()
 	   );
-
-
-
-
+	   System.out.println("All Test Case passed");
     }
 
 
