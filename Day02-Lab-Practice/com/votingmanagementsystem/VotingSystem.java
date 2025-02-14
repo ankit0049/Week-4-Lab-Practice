@@ -20,6 +20,7 @@ public class VotingSystem {
 	   if (votesHashMap.containsKey(candidateName)) {
 		  int oldVoteCount = votesHashMap.get(candidateName);
 		  votesTreeMap.get(oldVoteCount).remove(candidateName);
+		  // Remove the entry from TreeMap if the list is empty
 		  if (votesTreeMap.get(oldVoteCount).isEmpty()) {
 			 votesTreeMap.remove(oldVoteCount);
 		  }
