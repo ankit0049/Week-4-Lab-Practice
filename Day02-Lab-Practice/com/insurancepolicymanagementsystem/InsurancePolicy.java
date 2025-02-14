@@ -66,6 +66,7 @@ class InsurancePolicy implements Comparable<InsurancePolicy>{
 	// Converts policy details into a readable string format.
 	@Override
 	public String toString() {
+	    // Returns a string representation of the insurance policy
 		return "Policy No: " + policyNumber + ", Holder: " + policyholderName +
 			   ", Expiry: " + expiryDate + ", Type: " + coverageType + ", Premium: $" + premiumAmount;
 	}
