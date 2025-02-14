@@ -34,6 +34,7 @@ public class BankingSystem {
 			 double currentBalance = customerAccounts.get(accountNumber);
 
 			 if (currentBalance >= amount) {
+				// Update the balance in both maps
 				currentBalance -= amount;
 				customerAccounts.put(accountNumber, currentBalance);
 				System.out.println("Withdrawal successful from account: " + accountNumber + " | Amount: " + amount);
