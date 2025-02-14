@@ -16,6 +16,7 @@ public class ShoppingCart {
     public void addProduct(String productName, int price) {
 	   // Remove the product from the sorted price map if it already exists
 	   if (productPriceMap.containsKey(productName)) {
+		  // Remove the product from the sorted price map if it already exists
 		  int oldPrice = productPriceMap.get(productName);
 		  productSortedByPrice.get(oldPrice).remove(productName);
 		  if (productSortedByPrice.get(oldPrice).isEmpty()) {
