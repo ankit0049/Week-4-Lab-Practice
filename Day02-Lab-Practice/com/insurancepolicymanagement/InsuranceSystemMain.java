@@ -30,7 +30,7 @@ public class InsuranceSystemMain {
 		// Removing expired policies
 		manager.removeExpiredPolicies();
 
-		// Displaying all policies after removing expired ones
+		// Displaying all policies after removing expired
 		manager.displayAllPolicies();
 	}
 }

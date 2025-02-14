@@ -44,6 +44,7 @@ public class InsurancePolicyManager {
 	   }
     }
 
+    // Removes expired policies from all maps
     public void removeExpiredPolicies() {
 	   System.out.println("\nRemoving Expired Policies:");
 	   LocalDate today = LocalDate.now();

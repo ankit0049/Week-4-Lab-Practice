@@ -67,6 +67,7 @@ public class InsurancePolicy implements Comparable<InsurancePolicy> {
 			   ", Expiry: " + expiryDate + ", Premium: " + premiumAmount;
 	}
 
+	// Returns the premium amount of the insurance policy.
     public double getPremiumAmount() {
 	    return premiumAmount;
     }
