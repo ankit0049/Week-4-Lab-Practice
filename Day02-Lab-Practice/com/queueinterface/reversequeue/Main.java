@@ -10,6 +10,8 @@ public class Main{
         // Creating queue using the LinkedList class and perform actions and reverse it
         Queue<Integer> queue = new LinkedList<>(Arrays.asList(10, 20, 30));
         System.out.println("Original Queue: " + queue);
+
+        // Reverse the queue
         reverseQueue(queue);
         System.out.println("Reversed Queue: " + queue);
     }
