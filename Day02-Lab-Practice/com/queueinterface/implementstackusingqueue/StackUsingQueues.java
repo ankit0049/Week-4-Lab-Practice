@@ -32,6 +32,7 @@ public class StackUsingQueues {
 	   return top;
     }
 
+    // get the top element
     public int top() {
 	   if (q1.isEmpty()) throw new NoSuchElementException("Stack is empty!");
 	   while (q1.size() > 1) {

@@ -15,6 +15,7 @@ public class StackImplementation {
 	   System.out.println("Top Element: " + stack.top());
 	   // Printing the popped element of the stack
 
+	   // Displaying the popped element
 	   System.out.println("Popped: " + stack.pop());
 
 	   // printing the peek element of the stack
