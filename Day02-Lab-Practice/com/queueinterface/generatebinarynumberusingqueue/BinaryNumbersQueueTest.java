@@ -4,7 +4,7 @@ import static com.queueinterface.generatebinarynumberusingqueue.BinaryNumbersQue
 public class BinaryNumbersQueueTest {
     public static void main(String[] args) {
         // take the  number and find binary till the number is reached
-        int n = 5;
+        int n = 6;
 
         // Print the first 'n' binary numbers
         System.out.println("First " + n + " binary numbers: " + generateBinaryNumbers(n));

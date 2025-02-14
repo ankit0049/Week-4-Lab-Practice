@@ -28,7 +28,7 @@ public class BinaryNumbersQueue {
             queue.add(binary + "1");
         }
 
-        // Return the list of generated binary numbers
+        // Return the list of binary numbers
         return result;
     }
 }
