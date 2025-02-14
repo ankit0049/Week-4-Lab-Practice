@@ -10,7 +10,7 @@ public class CircularMain {
 	   cb.enqueue(2);
 	   cb.enqueue(3);
 
-	   // Display the buffer
+	   // Display the buffer element
 	   System.out.println("Buffer: " + cb.getBuffer());
 
 	   // Insert the element while capacity is full it override the data

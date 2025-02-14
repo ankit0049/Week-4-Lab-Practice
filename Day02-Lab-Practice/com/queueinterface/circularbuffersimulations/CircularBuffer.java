@@ -47,7 +47,7 @@ public class CircularBuffer {
             // Access elements in a circular manner
             result.add(buffer[(head + i) % size]);
         }
-
+        // Return the collected elements as a list
         return result;
     }
 }
