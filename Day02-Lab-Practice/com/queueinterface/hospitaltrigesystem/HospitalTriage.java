@@ -14,6 +14,8 @@ public class HospitalTriage {
 
         // Process patients based on their severity
         System.out.println("Patient Treatment Order:");
+
+        // Print the patients in the order they should be treated
         while (!pq.isEmpty()) {
             System.out.println(pq.poll());
         }

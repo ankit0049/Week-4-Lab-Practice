@@ -5,7 +5,7 @@ public class Patient {
     public String name;
     public int severity;
 
-    // Intilizing the attributes in the constructor
+    // Intializing the attributes in the constructor
     public Patient(String name, int severity) {
         this.name = name;
         this.severity = severity;
